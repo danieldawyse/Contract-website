@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Contract Website</title>
+</head>
+
+<body>
+    <header>
+        <h1>Contract Agreement</h1>
+    </header>
+
+    <main>
+        <section id="contract-details">
+            <h2>Contract Details</h2>
+            <form id="contract-form">
+                <label for="client-name">Client Name:</label>
+                <input type="text" id="client-name" required>
+
+                <label for="service">Service:</label>
+                <input type="text" id="service" required>
+
+                <label for="contract-amount">Contract Amount:</label>
+                <input type="number" id="contract-amount" required>
+
+                <label for="contract-duration">Contract Duration (months):</label>
+                <input type="number" id="contract-duration" required>
+
+                <button type="button" onclick="submitContract()">Submit Contract</button>
+            </form>
+        </section>
+
+        <section id="contract-display">
+            <h2>Active Contracts</h2>
+            <ul id="contract-list"></ul>
+        </section>
+    </main>
+
+    <script src="contract.js"></script>
+</body>
+
+</html>

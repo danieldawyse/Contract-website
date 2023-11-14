@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+form {
+    display: grid;
+    grid-gap: 10px;
+}
+
+button {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+#contract-display {
+    margin-top: 20px;
+}
+
+#contract-list {
+    list-style: none;
+    padding: 0;
+}
+
+.contract-item {
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    padding: 10px;
+}
